@@ -1,0 +1,349 @@
+models/ridge-2017-01-15-00-14-40.pkl,Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridge-2017-01-15-00-15-10.pkl,Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridgecv-2017-01-15-00-20-49.pkl,RidgeCV(alphas=(0.1, 1.0, 10.0), cv=None, fit_intercept=True, gcv_mode=None,
+    normalize=False, scoring=None, store_cv_values=False)
+models/ridgecv-2017-01-15-00-26-46.pkl,RidgeCV(alphas=(0.1, 1.0, 10.0), cv=5, fit_intercept=True, gcv_mode=None,
+    normalize=False, scoring=None, store_cv_values=False)
+models/rf-2017-01-15-00-30-39.pkl,RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
+           max_features='auto', max_leaf_nodes=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           n_estimators=500, n_jobs=1, oob_score=False, random_state=None,
+           verbose=0, warm_start=False)
+models/rf-2017-01-15-00-30-39.pkl,RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
+           max_features='auto', max_leaf_nodes=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           n_estimators=500, n_jobs=1, oob_score=False, random_state=None,
+           verbose=0, warm_start=False)
+models/lin-2017-01-15-00-35-09.pkl,LinearRegression(copy_X=True, fit_intercept=True, n_jobs=-1, normalize=False)
+models/lin-2017-01-15-00-39-46.pkl,LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+models/elastic-2017-01-15-00-42-27.pkl,ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+models/lin-2017-01-15-00-49-11.pkl,LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+models/tflearn-lin-2017-01-15-01-07-40.pkl,LinearRegressor()
+models/elastic-2017-01-15-01-09-15.pkl,ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+models/ada-2017-01-15-01-10-24.pkl,AdaBoostRegressor(base_estimator=None, learning_rate=1.0, loss='linear',
+         n_estimators=50, random_state=None)
+models/rf_grid-2017-01-15-01-03-19.pkl,GridSearchCV(cv=None, error_score='raise',
+       estimator=RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
+           max_features='auto', max_leaf_nodes=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           n_estimators=10, n_jobs=1, oob_score=False, random_state=42,
+           verbose=10, warm_start=False),
+       fit_params={}, iid=True, n_jobs=1,
+       param_grid={'n_estimators': [10, 100, 500, 1000, 2500, 5000]},
+       pre_dispatch='2*n_jobs', refit=True, scoring=None, verbose=0)
+models/ada-grid-2017-01-15-01-27-45.pkl,GridSearchCV(cv=None, error_score='raise',
+       estimator=AdaBoostRegressor(base_estimator=None, learning_rate=1.0, loss='linear',
+         n_estimators=50, random_state=42),
+       fit_params={}, iid=True, n_jobs=1,
+       param_grid={'n_estimators': [10, 100, 500, 1000, 2500]},
+       pre_dispatch='2*n_jobs', refit=True, scoring=None, verbose=0)
+models/ridge-grid-2017-01-15-01-31-07.pkl,GridSearchCV(cv=None, error_score='raise',
+       estimator=Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=42, solver='auto', tol=0.001),
+       fit_params={}, iid=True, n_jobs=1,
+       param_grid={'alpha': [1, 0.1, 0.01, 0.001, 0.0001]},
+       pre_dispatch='2*n_jobs', refit=True, scoring=None, verbose=0)
+models/ridge-grid-2017-01-15-01-34-01.pkl,GridSearchCV(cv=None, error_score='raise',
+       estimator=Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=42, solver='auto', tol=0.001),
+       fit_params={}, iid=True, n_jobs=1,
+       param_grid={'alpha': [25, 10, 5, 1, 0.1, 0.01, 0.001, 0.0001]},
+       pre_dispatch='2*n_jobs', refit=True, scoring=None, verbose=0)
+models/ada-grid-2017-01-15-01-34-49.pkl,GridSearchCV(cv=None, error_score='raise',
+       estimator=AdaBoostRegressor(base_estimator=None, learning_rate=1.0, loss='linear',
+         n_estimators=50, random_state=42),
+       fit_params={}, iid=True, n_jobs=1,
+       param_grid={'n_estimators': [10, 100, 500, 1000, 2500, 5000]},
+       pre_dispatch='2*n_jobs', refit=True, scoring=None, verbose=0)
+models/ensemble-2017-01-15-01-44-39.pkl,LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+models/ensemble-2017-01-15-01-44-39.pkl,Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ensemble-2017-01-15-01-44-39.pkl,Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ensemble-2017-01-15-01-44-39.pkl,LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=True)
+models/ensemble-2017-01-15-01-44-39.pkl,RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
+           max_features='auto', max_leaf_nodes=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           n_estimators=10, n_jobs=1, oob_score=False, random_state=None,
+           verbose=0, warm_start=False)
+models/ensemble-2017-01-15-20-28-55.pkl,RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
+           max_features='auto', max_leaf_nodes=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           n_estimators=10, n_jobs=1, oob_score=False, random_state=None,
+           verbose=0, warm_start=False)
+models/rf_grid-2017-01-15-20-42-37.pkl,GridSearchCV(cv=None, error_score='raise',
+       estimator=RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
+           max_features='auto', max_leaf_nodes=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           n_estimators=10, n_jobs=1, oob_score=False, random_state=42,
+           verbose=10, warm_start=False),
+       fit_params={}, iid=True, n_jobs=1,
+       param_grid={'n_estimators': [500, 1000, 2500]},
+       pre_dispatch='2*n_jobs', refit=True, scoring=None, verbose=0)
+models/ada-grid-2017-01-15-20-39-01.pkl,GridSearchCV(cv=None, error_score='raise',
+       estimator=AdaBoostRegressor(base_estimator=None, learning_rate=1.0, loss='linear',
+         n_estimators=50, random_state=42),
+       fit_params={}, iid=True, n_jobs=1,
+       param_grid={'n_estimators': [5000, 7500, 10000]},
+       pre_dispatch='2*n_jobs', refit=True, scoring=None, verbose=0)
+models/ensemble-2017-01-16-16-38-23.pkl,RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
+           max_features='auto', max_leaf_nodes=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           n_estimators=10, n_jobs=1, oob_score=False, random_state=None,
+           verbose=0, warm_start=False)
+models/gb-grid-2017-01-16-16-44-01.pkl,GridSearchCV(cv=None, error_score='raise',
+       estimator=GradientBoostingRegressor(alpha=0.9, init=None, learning_rate=0.1, loss='ls',
+             max_depth=3, max_features=None, max_leaf_nodes=None,
+             min_samples_leaf=1, min_samples_split=2,
+             min_weight_fraction_leaf=0.0, n_estimators=100,
+             presort='auto', random_state=42, subsample=1.0, verbose=0,
+             warm_start=False),
+       fit_params={}, iid=True, n_jobs=1,
+       param_grid={'n_estimators': [10, 50, 100, 500, 1000, 5000]},
+       pre_dispatch='2*n_jobs', refit=True, scoring=None, verbose=0)
+models/gb-rfe-2017-01-16-17-04-22.pkl,RFE(estimator=GradientBoostingRegressor(alpha=0.9, init=None, learning_rate=0.1, loss='ls',
+             max_depth=3, max_features=None, max_leaf_nodes=None,
+             min_samples_leaf=1, min_samples_split=2,
+             min_weight_fraction_leaf=0.0, n_estimators=100,
+             presort='auto', random_state=42, subsample=1.0, verbose=0,
+             warm_start=False),
+  estimator_params=None, n_features_to_select=None, step=1, verbose=0)
+models/ridge-rfe-2017-01-16-17-36-30.pkl,Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridge-grid-minimal-2017-01-16-18-08-47.pkl,GridSearchCV(cv=None, error_score='raise',
+       estimator=Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=42, solver='auto', tol=0.001),
+       fit_params={}, iid=True, n_jobs=1,
+       param_grid={'alpha': [25, 10, 5, 1, 0.1, 0.01, 0.001, 0.0001]},
+       pre_dispatch='2*n_jobs', refit=True, scoring=None, verbose=0)
+models/ridge_minimal-2017-01-16-18-14-08.pkl,Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridgecv-2017-01-16-18-17-03.pkl,RidgeCV(alphas=(0.1, 1.0, 10.0), cv=5, fit_intercept=True, gcv_mode=None,
+    normalize=False, scoring=None, store_cv_values=False)
+models/elastic-minimal-2017-01-16-18-20-36.pkl,ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+models/rf_minimal-2017-01-16-18-16-10.pkl,GridSearchCV(cv=None, error_score='raise',
+       estimator=RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
+           max_features='auto', max_leaf_nodes=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           n_estimators=10, n_jobs=1, oob_score=False, random_state=42,
+           verbose=10, warm_start=False),
+       fit_params={}, iid=True, n_jobs=1,
+       param_grid={'n_estimators': [500, 1000, 2500]},
+       pre_dispatch='2*n_jobs', refit=True, scoring=None, verbose=0)
+models/gb-grid-2017-01-16-18-18-57.pkl,GridSearchCV(cv=None, error_score='raise',
+       estimator=GradientBoostingRegressor(alpha=0.9, init=None, learning_rate=0.1, loss='ls',
+             max_depth=3, max_features=None, max_leaf_nodes=None,
+             min_samples_leaf=1, min_samples_split=2,
+             min_weight_fraction_leaf=0.0, n_estimators=100,
+             presort='auto', random_state=42, subsample=1.0, verbose=0,
+             warm_start=False),
+       fit_params={}, iid=True, n_jobs=1,
+       param_grid={'n_estimators': [10, 50, 100, 500, 1000, 5000]},
+       pre_dispatch='2*n_jobs', refit=True, scoring=None, verbose=0)
+models/lin-minimal-2017-01-16-18-22-30.pkl,LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+models/ridgecv_minimal-2017-01-16-18-23-47.pkl,RidgeCV(alphas=(0.1, 1.0, 10.0), cv=5, fit_intercept=True, gcv_mode=None,
+    normalize=False, scoring=None, store_cv_values=False)
+models/gb-grid_minimal-2017-01-16-18-24-09.pkl,GridSearchCV(cv=None, error_score='raise',
+       estimator=GradientBoostingRegressor(alpha=0.9, init=None, learning_rate=0.1, loss='ls',
+             max_depth=3, max_features=None, max_leaf_nodes=None,
+             min_samples_leaf=1, min_samples_split=2,
+             min_weight_fraction_leaf=0.0, n_estimators=100,
+             presort='auto', random_state=42, subsample=1.0, verbose=0,
+             warm_start=False),
+       fit_params={}, iid=True, n_jobs=1,
+       param_grid={'n_estimators': [10, 50, 100, 500, 1000, 5000]},
+       pre_dispatch='2*n_jobs', refit=True, scoring=None, verbose=0)
+models/gb-grid_minimal-2017-01-16-18-26-17.pkl,GridSearchCV(cv=None, error_score='raise',
+       estimator=AdaBoostRegressor(base_estimator=None, learning_rate=1.0, loss='linear',
+         n_estimators=50, random_state=42),
+       fit_params={}, iid=True, n_jobs=1,
+       param_grid={'n_estimators': [10, 50, 100, 500, 1000, 5000]},
+       pre_dispatch='2*n_jobs', refit=True, scoring=None, verbose=0)
+models/gb-grid-minimal-2017-01-16-18-30-48.pkl,GridSearchCV(cv=None, error_score='raise',
+       estimator=GradientBoostingRegressor(alpha=0.9, init=None, learning_rate=0.1, loss='ls',
+             max_depth=3, max_features=None, max_leaf_nodes=None,
+             min_samples_leaf=1, min_samples_split=2,
+             min_weight_fraction_leaf=0.0, n_estimators=100,
+             presort='auto', random_state=42, subsample=1.0, verbose=0,
+             warm_start=False),
+       fit_params={}, iid=True, n_jobs=1,
+       param_grid={'n_estimators': [10, 50, 100, 500, 1000, 5000]},
+       pre_dispatch='2*n_jobs', refit=True, scoring=None, verbose=0)
+models/ada-minimal-2017-01-16-18-31-01.pkl,GridSearchCV(cv=None, error_score='raise',
+       estimator=AdaBoostRegressor(base_estimator=None, learning_rate=1.0, loss='linear',
+         n_estimators=50, random_state=42),
+       fit_params={}, iid=True, n_jobs=1,
+       param_grid={'n_estimators': [10, 50, 100, 500, 1000, 5000]},
+       pre_dispatch='2*n_jobs', refit=True, scoring=None, verbose=0)
+models/ensemble-2017-01-16-18-37-37.pkl,RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
+           max_features='auto', max_leaf_nodes=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           n_estimators=10, n_jobs=1, oob_score=False, random_state=None,
+           verbose=0, warm_start=False)
+models/ensemble-2017-01-16-18-40-17.pkl,RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
+           max_features='auto', max_leaf_nodes=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           n_estimators=10, n_jobs=1, oob_score=False, random_state=None,
+           verbose=0, warm_start=False)
+models/ensemble-2017-01-16-18-40-17.pkl,RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
+           max_features='auto', max_leaf_nodes=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           n_estimators=10, n_jobs=1, oob_score=False, random_state=None,
+           verbose=0, warm_start=False)
+models/ridge_minimal-2017-01-16-18-44-18.pkl,Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ensemble-2017-01-16-18-46-05.pkl,RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
+           max_features='auto', max_leaf_nodes=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           n_estimators=10, n_jobs=1, oob_score=False, random_state=None,
+           verbose=0, warm_start=False)
+models/ensemble-2017-01-16-18-47-15.pkl,RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
+           max_features='auto', max_leaf_nodes=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           n_estimators=10, n_jobs=1, oob_score=False, random_state=None,
+           verbose=0, warm_start=False)
+models/ensemble-2017-01-16-18-48-12.pkl,RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
+           max_features='auto', max_leaf_nodes=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           n_estimators=10, n_jobs=1, oob_score=False, random_state=None,
+           verbose=0, warm_start=False)
+models/ensemble-2017-01-16-18-49-16.pkl,RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
+           max_features='auto', max_leaf_nodes=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           n_estimators=10, n_jobs=1, oob_score=False, random_state=None,
+           verbose=0, warm_start=False)
+models/ensemble-2017-01-16-18-49-56.pkl,LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+models/ensemble-2017-01-16-18-50-44.pkl,LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+models/ensemble-2017-01-16-18-51-13.pkl,LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+models/ensemble-2017-01-16-18-52-18.pkl,LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+models/ensemble-2017-01-16-18-52-18.pkl,RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
+           max_features='auto', max_leaf_nodes=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           n_estimators=10, n_jobs=1, oob_score=False, random_state=None,
+           verbose=0, warm_start=False)
+models/ridge_minimal-2017-01-16-22-24-06.pkl,Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridge_minimal-2017-01-16-22-26-55.pkl,Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridge_minimal-2017-01-16-22-37-58.pkl,Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridge_minimal-2017-01-16-22-37-58.pkl,ExtraTreesRegressor(bootstrap=False, criterion='mse', max_depth=None,
+          max_features='auto', max_leaf_nodes=None, min_samples_leaf=1,
+          min_samples_split=2, min_weight_fraction_leaf=0.0,
+          n_estimators=250, n_jobs=1, oob_score=False, random_state=42,
+          verbose=0, warm_start=False)
+models/ridge_minimal-2017-01-17-00-19-12.pkl,Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridge_minimal-2017-01-17-00-20-00.pkl,Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridge_minimal-2017-01-17-00-20-00.pkl,Ridge(alpha=10, copy_X=True, fit_intercept=True, max_iter=10000,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridge_minimal-2017-01-17-00-20-00.pkl,Ridge(alpha=100, copy_X=True, fit_intercept=True, max_iter=10000,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridge_minimal-2017-01-17-00-20-00.pkl,Ridge(alpha=10, copy_X=True, fit_intercept=True, max_iter=10000,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridge_minimal-2017-01-17-00-20-00.pkl,Ridge(alpha=10, copy_X=True, fit_intercept=True, max_iter=100000,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/lasso-2017-01-17-00-23-28.pkl,Lasso(alpha=10, copy_X=True, fit_intercept=True, max_iter=10000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+models/lasso-2017-01-17-00-23-28.pkl,Lasso(alpha=0.1, copy_X=True, fit_intercept=True, max_iter=10000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+models/lasso-2017-01-17-00-23-28.pkl,Lasso(alpha=0.00099, copy_X=True, fit_intercept=True, max_iter=10000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+models/gb-grid-2017-01-17-01-32-16.pkl,GridSearchCV(cv=None, error_score='raise',
+       estimator=GradientBoostingRegressor(alpha=0.9, init=None, learning_rate=0.1, loss='ls',
+             max_depth=3, max_features=None, max_leaf_nodes=None,
+             min_samples_leaf=1, min_samples_split=2,
+             min_weight_fraction_leaf=0.0, n_estimators=100,
+             presort='auto', random_state=42, subsample=1.0, verbose=True,
+             warm_start=False),
+       fit_params={}, iid=True, n_jobs=-1,
+       param_grid={'n_estimators': [10, 50, 100, 500, 1000]},
+       pre_dispatch='2*n_jobs', refit=True, scoring='mean_squared_error',
+       verbose=True)
+models/gb-grid-2017-01-17-01-32-16.pkl,GridSearchCV(cv=None, error_score='raise',
+       estimator=GradientBoostingRegressor(alpha=0.9, init=None, learning_rate=0.1, loss='ls',
+             max_depth=3, max_features=None, max_leaf_nodes=None,
+             min_samples_leaf=1, min_samples_split=2,
+             min_weight_fraction_leaf=0.0, n_estimators=100,
+             presort='auto', random_state=42, subsample=1.0, verbose=True,
+             warm_start=False),
+       fit_params={}, iid=True, n_jobs=-1,
+       param_grid={'n_estimators': [10, 50, 100, 500], 'learning_rate': [0.1, 0.03, 0.01, 0.003], 'max_depth': [3, 4, 5, 10]},
+       pre_dispatch='2*n_jobs', refit=True, scoring='mean_squared_error',
+       verbose=True)
+models/ridge_minimal-2017-01-17-23-33-45.pkl,Ridge(alpha=10, copy_X=True, fit_intercept=True, max_iter=100000,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridge_incremental-2017-01-18-00-22-15.pkl,Ridge(alpha=10, copy_X=True, fit_intercept=True, max_iter=100000,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridge_incremental-2017-01-18-00-42-00.pkl,Ridge(alpha=10, copy_X=True, fit_intercept=True, max_iter=100000,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridge_incremental-2017-01-18-00-57-26.pkl,Ridge(alpha=10, copy_X=True, fit_intercept=True, max_iter=100000,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridge_incremental-2017-01-18-00-59-31.pkl,Ridge(alpha=10, copy_X=True, fit_intercept=True, max_iter=100000,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridge_incremental-2017-01-18-01-10-28.pkl,Ridge(alpha=10, copy_X=True, fit_intercept=True, max_iter=100000,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridge_incremental-2017-01-18-01-12-04.pkl,Ridge(alpha=10, copy_X=True, fit_intercept=True, max_iter=100000,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridge_incremental-2017-01-18-01-21-00.pkl,Ridge(alpha=10, copy_X=True, fit_intercept=True, max_iter=100000,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridge_incremental-2017-01-18-01-24-11.pkl,Ridge(alpha=10, copy_X=True, fit_intercept=True, max_iter=100000,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridge_incremental-2017-01-18-01-26-29.pkl,Ridge(alpha=10, copy_X=True, fit_intercept=True, max_iter=100000,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridge_incremental-2017-01-18-01-37-14.pkl,Ridge(alpha=10, copy_X=True, fit_intercept=True, max_iter=100000,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridge_incremental-2017-01-18-01-39-51.pkl,Ridge(alpha=10, copy_X=True, fit_intercept=True, max_iter=100000,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridge_incremental-2017-01-18-01-46-15.pkl,Ridge(alpha=10, copy_X=True, fit_intercept=True, max_iter=100000,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridge_incremental-2017-01-18-01-51-25.pkl,Ridge(alpha=10, copy_X=True, fit_intercept=True, max_iter=100000,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridge_incremental-2017-01-18-02-05-26.pkl,Ridge(alpha=10, copy_X=True, fit_intercept=True, max_iter=100000,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridge_incremental-2017-01-18-02-12-21.pkl,Ridge(alpha=10, copy_X=True, fit_intercept=True, max_iter=100000,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridge_incremental-2017-01-18-02-13-40.pkl,Ridge(alpha=10, copy_X=True, fit_intercept=True, max_iter=100000,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridge_incremental-2017-01-18-18-36-31.pkl,Ridge(alpha=10, copy_X=True, fit_intercept=True, max_iter=100000,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridge_incremental-2017-01-18-18-39-30.pkl,Ridge(alpha=10, copy_X=True, fit_intercept=True, max_iter=100000,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridge_incremental-2017-01-18-19-16-29.pkl,Ridge(alpha=10, copy_X=True, fit_intercept=True, max_iter=100000,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridge_incremental-2017-01-18-19-18-34.pkl,Ridge(alpha=10, copy_X=True, fit_intercept=True, max_iter=100000,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridge_incremental-2017-01-18-19-20-04.pkl,Ridge(alpha=10, copy_X=True, fit_intercept=True, max_iter=100000,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridge_incremental-2017-01-18-19-27-11.pkl,Ridge(alpha=10, copy_X=True, fit_intercept=True, max_iter=100000,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridge_incremental-2017-01-18-19-28-18.pkl,Ridge(alpha=10, copy_X=True, fit_intercept=True, max_iter=100000,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridge_incremental-2017-01-18-19-29-02.pkl,Ridge(alpha=10, copy_X=True, fit_intercept=True, max_iter=100000,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridge_incremental-2017-01-18-19-29-53.pkl,Ridge(alpha=10, copy_X=True, fit_intercept=True, max_iter=100000,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridge_incremental-2017-01-18-19-35-43.pkl,Ridge(alpha=10, copy_X=True, fit_intercept=True, max_iter=100000,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridge_incremental-2017-01-18-19-46-10.pkl,Ridge(alpha=10, copy_X=True, fit_intercept=True, max_iter=100000,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridge_incremental-2017-01-18-19-52-09.pkl,Ridge(alpha=10, copy_X=True, fit_intercept=True, max_iter=100000,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridge_incremental-2017-01-18-21-20-07.pkl,Ridge(alpha=10, copy_X=True, fit_intercept=True, max_iter=100000,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridge_incremental-2017-01-18-21-22-18.pkl,Ridge(alpha=10, copy_X=True, fit_intercept=True, max_iter=100000,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+models/ridge_incremental-2017-01-18-21-24-07.pkl,Ridge(alpha=10, copy_X=True, fit_intercept=True, max_iter=100000,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
